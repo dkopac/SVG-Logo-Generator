@@ -2,7 +2,7 @@ const Triangle = require("../Triangle.js");
 
 describe("Triangle", () => {
   it("should return logo with user choice of shape color, tex, and text color", () => {
-    const triangle = new Triangle("lime", "EKO", "aliceblue");
+    const triangle = new Triangle("yellow", "DTK", "black");
     expect(triangle.render()).toEqual(`
         <svg version="1.1" 
             width="300" height="200"

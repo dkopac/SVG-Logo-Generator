@@ -2,7 +2,7 @@ const Square = require("../Square.js");
 
 describe("Square", () => {
   it("should return logo with user choice of shape color, tex, and text color", () => {
-    const square = new Square("red", "EKO", "yellow");
+    const square = new Square("red", "DTK", "gray");
     expect(square.render()).toEqual(`
         <svg version="1.1"
             width="300" height="200"

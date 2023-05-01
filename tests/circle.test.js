@@ -2,7 +2,7 @@ const Circle = require("../Circle.js");
 
 describe("Circle", () => {
   it("should return logo with user choice of shape color, tex, and text color", () => {
-    const circle = new Circle("blue", "EKO", "white");
+    const circle = new Circle("aqua", "DTK", "blue");
     expect(circle.render()).toEqual(`
         <svg version="1.1"
             width="300" height="200"
