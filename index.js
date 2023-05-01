@@ -7,7 +7,7 @@ const setShape = require("./lib/setShape.js");
 // function to create new svg file using inquirer response and file system
 function createLogo(response) {
   const svg = setShape(response);
-  fs.writeFile(fileName, svg, () => console.log("Generated logo.svg"));
+  fs.writeFile(fileName, svg, () => console.log("logo.svg"));
 }
 
 // initialize, ask questions then createLogo using responses, catch any errors
